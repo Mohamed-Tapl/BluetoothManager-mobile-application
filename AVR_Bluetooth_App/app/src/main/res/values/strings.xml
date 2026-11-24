@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AVR Smart Home</string>
+    <string name="header_title">AVR Smart Home Control</string>
+    <string name="header_subtitle">ATmega32 + HC-05 Bluetooth System</string>
+
+    <!-- Bluetooth Status -->
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connected">Connected to HC-05</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="select_bluetooth_device">Select HC-05 Device</string>
+    <string name="no_paired_devices">No paired Bluetooth devices found. Please pair HC-05 in Android Bluetooth settings first.</string>
+    <string name="bluetooth_disabled_prompt">Bluetooth is disabled. Please enable Bluetooth to continue.</string>
+    <string name="permission_denied_prompt">Bluetooth permissions are required to discover and connect to HC-05.</string>
+
+    <!-- Room Light -->
+    <string name="room_light_title">Room Light</string>
+    <string name="room_light_desc">Relay 1 + High-Power LED</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+    <string name="btn_light_on">Turn ON (L)</string>
+    <string name="btn_light_off">Turn OFF (l)</string>
+
+    <!-- Auxiliary Appliance -->
+    <string name="aux_appliance_title">Auxiliary Appliance</string>
+    <string name="aux_appliance_desc">Relay 2 (Socket / Heater / AC)</string>
+    <string name="btn_aux_on">Turn ON (R)</string>
+    <string name="btn_aux_off">Turn OFF (r)</string>
+
+    <!-- Fan Control -->
+    <string name="fan_control_title">Fan Control</string>
+    <string name="fan_control_desc">DC Motor + Hardware Timer PWM</string>
+    <string name="btn_fan_on">Fan ON (F)</string>
+    <string name="btn_fan_off">Fan OFF (f)</string>
+    <string name="fan_speed_preset_0">0%</string>
+    <string name="fan_speed_preset_1">40%</string>
+    <string name="fan_speed_preset_2">70%</string>
+    <string name="fan_speed_preset_3">100%</string>
+    <string name="fan_speed_label">PWM Speed Presets:</string>
+
+    <!-- UART Terminal & EEPROM -->
+    <string name="terminal_title">Microcontroller UART Console</string>
+    <string name="terminal_subtitle">Real-time ASCII Telemetry &amp; EEPROM Logs</string>
+    <string name="btn_get_status">Get Status &amp; EEPROM Logs (S)</string>
+    <string name="btn_clear_console">Clear Console</string>
+    <string name="terminal_placeholder">> Console ready. Connect to ATmega32 to view logs...\n</string>
+
+    <!-- Safety / UX -->
+    <string name="warn_not_connected">Please connect to HC-05 Bluetooth module first!</string>
+    <string name="warn_manual_lock">WARNING: Manual Lock active on ATmega32 hardware!</string>
+
+    <!-- Developer Footer Card -->
+    <string name="dev_footer_label">Developed By</string>
+    <string name="dev_footer_names">Mohamed Tapl &amp; Mahmod Yahia</string>
+    <string name="dev_footer_sublabel">Embedded Systems — AVR Graduation Project</string>
+</resources>

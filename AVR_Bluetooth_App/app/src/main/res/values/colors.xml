@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Accent Palette (Indigo / Teal / Amber) -->
+    <color name="primary">#4338CA</color>
+    <color name="primary_variant">#3730A3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E0E7FF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+
+    <color name="secondary">#0D9488</color>
+    <color name="secondary_variant">#0F766E</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#CCFBF1</color>
+    <color name="on_secondary_container">#134E4A</color>
+
+    <!-- Backgrounds & Surfaces -->
+    <color name="app_background">#F4F6FA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_card_stroke">#E2E8F0</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <!-- State & Badges -->
+    <color name="status_disconnected_bg">#FEE2E2</color>
+    <color name="status_disconnected_text">#DC2626</color>
+    <color name="status_disconnected_stroke">#FCA5A5</color>
+
+    <color name="status_connecting_bg">#FEF3C7</color>
+    <color name="status_connecting_text">#D97706</color>
+    <color name="status_connecting_stroke">#FCD34D</color>
+
+    <color name="status_connected_bg">#DCFCE7</color>
+    <color name="status_connected_text">#15803D</color>
+    <color name="status_connected_stroke">#86EFAC</color>
+
+    <!-- Terminal Colors -->
+    <color name="terminal_background">#12161F</color>
+    <color name="terminal_stroke">#2A3245</color>
+    <color name="terminal_text_green">#00E676</color>
+    <color name="terminal_text_tx">#38BDF8</color>
+    <color name="terminal_text_warning">#F59E0B</color>
+    <color name="terminal_text_error">#EF4444</color>
+    <color name="terminal_text_dim">#64748B</color>
+
+    <!-- Developer Card Gradient -->
+    <color name="dev_card_start">#0F172A</color>
+    <color name="dev_card_center">#1E293B</color>
+    <color name="dev_card_end">#0F172A</color>
+    <color name="dev_card_stroke">#334155</color>
+    <color name="dev_card_accent">#818CF8</color>
+</resources>

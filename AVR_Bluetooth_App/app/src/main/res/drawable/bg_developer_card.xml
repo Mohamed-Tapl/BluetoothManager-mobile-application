@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="16dp" />
+    <gradient
+        android:angle="135"
+        android:endColor="@color/dev_card_end"
+        android:centerColor="@color/dev_card_center"
+        android:startColor="@color/dev_card_start"
+        android:type="linear" />
+    <stroke
+        android:width="1.5dp"
+        android:color="@color/dev_card_stroke" />
+    <padding
+        android:bottom="20dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:top="20dp" />
+</shape>
